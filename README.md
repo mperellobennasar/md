@@ -1,14 +1,18 @@
-# Titulos
+# MarkDown
+> Miquel Àngel Perelló Bennasar - LM 2026-2027
+---
+
+## Titulos
 MarkDown permite añadir titulos de varios tamaños, indicados por 1 o varios **#**, de la siguiente manera:
 
-# Titulo 1
-## Titulo 2
 ### Titulo 3
-### ...
+#### Titulo 4
+##### Titulo 5
 ###### Titulo 6
 
+Cuantos mas **\#**, mas pequeño será el titulo, MarkDown soporta hasta 6 tamaños, empezando por `# Titulo 1`.
 
-# Texto
+## Texto
 Se permite dar formato a un texto usando diferentes etiquetas:
 
 *Italic con \* o \_ antes y despues del texto*
@@ -22,7 +26,7 @@ Se pueden combinar ambos ***italic y bold***
 `Inline code con ` \` ` antes y despues del texto`
 
 
-# Listas
+## Listas
 Existen los siguientes tipos de listas:
 
 - No numeradas
@@ -36,12 +40,11 @@ Existen los siguientes tipos de listas:
     3. c
 
 - Tareas
+  - [x] a
+  - [ ] b
+  - [ ] c
 
-- [x] a
-- [ ] b
-- [ ] c
-
-# Elnaces e imagenes
+## Elnaces e imagenes
 
 Se puede añadir un enlace:
 
@@ -51,13 +54,13 @@ O una imagen:
 
 ![print hello world](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_d9hBSAhw5UGoIGCKhm3KWnX6wGLGQdv6PQJmiXneg&s)
 
-# Codigo
+## Codigo
 
-Se puede introducir un bloque de codigo con \~\~\~ antes y despues del texto:
+Se puede introducir un bloque de codigo con **\~\~\~** antes y despues del texto:
 
-*Se puede indicar el lenguaje para resaltar despues del \~\~\~*
+*Se puede indicar el lenguaje para resaltar despues del* ***\~\~\~***
 
-*En este caso* **asm**:
+*En este caso* ***asm***:
 
 ~~~asm
 global _start
@@ -77,7 +80,7 @@ section .data
   message: db "Hello, World", 10
 ~~~
 
-# Tablas
+## Tablas
 
 MarkDown tambien permite añadir tablas usando \- y \| para indicar los bordes de cada celda: 
 
@@ -87,8 +90,9 @@ MarkDown tambien permite añadir tablas usando \- y \| para indicar los bordes d
 | Contenido | *formateado* | `Codigo`  |
 |           | Contenido    | ~~Linea~~ |
 | Vacio ^   | Text         | Contenido |
+| a         | b            | c         |
 
-# Citas y decoradores
+## Citas y decoradores
 
 Se pueden citar contenidos con el caracter **\>**:
 
@@ -102,12 +106,11 @@ Se pueden citar contenidos con el caracter **\>**:
 > >
 > >Asi como añadir cualquier etiqueta, como texto **con** *formato* `o codigo`
 
-Para estructurar un documento, puede ser util usar un separador horizontal introduciendo "---":
+Para estructurar un documento, puede ser util usar un separador horizontal introduciendo **---**:
 
 ---
 
-
 Al posicionar esta linea justo despues de un texto, se va a crear un titulo automaticamente:
 
-Test
+Titulo con linea
 ---
