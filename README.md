@@ -98,10 +98,8 @@ Se pueden citar contenidos con el caracter **\>**:
 
 > An idiot admires complexity, a genius admires simplicity, a physicist tries to make it simple, for an idiot anything the more complicated it is the better
 >
->
 > -Terry A. Davis
 > 
->
 > >Tambien se pueden anidar varias citas con el mismo caracter
 > >
 > >Asi como añadir cualquier etiqueta, como texto **con** *formato* `o codigo`
